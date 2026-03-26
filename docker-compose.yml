@@ -15,7 +15,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: spring-container
+    container_name: springJenkins-container
     ports:
       - "8900:8080"
     depends_on:
