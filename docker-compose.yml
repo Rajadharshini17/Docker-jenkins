@@ -17,7 +17,7 @@ services:
       dockerfile: Dockerfile
     container_name: springJenkins-container
     ports:
-      - "8900:8080"
+      - "8900:8086"
     depends_on:
       - mysql-db
     environment:
